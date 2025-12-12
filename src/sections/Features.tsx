@@ -1,31 +1,33 @@
-import FeatureCard from "../components/FeatureCard";
+import FeatureCard from "@/components/FeatureCard";
 
 export default function Features() {
   const features = [
     {
-      title: "Pixel-perfect UI",
-      description: "Accurate layout, spacing and typography matching the Figma desktop design.",
+      title: "Pixel-Perfect Layout",
+      description: "Clean proportions, balanced spacing, and a flawless minimal visual hierarchy.",
     },
     {
-      title: "Responsive Ready",
-      description: "Built with mobile-first responsive Tailwind utilities (desktop target as required).",
+      title: "Reusable Components",
+      description: "Build once, use everywhere — scalable and maintainable UI blocks.",
     },
     {
-      title: "Accessible",
-      description: "Semantic HTML, keyboard focus, aria labels and color contrast considerations.",
+      title: "Modern Styling",
+      description: "Minimal design inspired by today's top tech brands.",
     },
     {
-      title: "Interactive States",
-      description: "Hover, focus and transitions to match expected UI behavior.",
+      title: "Fully Responsive",
+      description: "Looks perfect on every screen size with smooth stacking.",
     },
   ];
 
   return (
-    <section id="features" className="w-full bg-zinc-50 py-20">
-      <div className="max-w-[1200px] mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-8">Key Features</h2>
+    <section className="w-full py-28 bg-white">
+      <div className="max-w-7xl mx-auto px-6">
+        <h2 className="text-4xl font-semibold text-center mb-16">
+          Why Choose Our UI?
+        </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {features.map((f) => (
             <FeatureCard key={f.title} title={f.title} description={f.description} />
           ))}

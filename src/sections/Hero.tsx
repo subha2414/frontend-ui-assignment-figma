@@ -1,17 +1,21 @@
 export default function Hero() {
   return (
-    <section className="w-full py-24 bg-white">
-      <div className="max-w-[1200px] mx-auto px-6 text-center">
-        <h1 className="text-5xl font-bold mb-6">
-          Frontend UI Assignment
+    <section className="w-full pt-40 pb-32 bg-white">
+      <div className="max-w-7xl mx-auto px-6 text-center">
+        
+        <h1 className="text-6xl font-bold leading-tight text-black mb-6">
+          Build Beautiful Interfaces Effortlessly
         </h1>
-        <p className="text-gray-600 text-lg mb-8">
-          Build a pixel-perfect UI from the Figma design using React + Next.js + Tailwind.
+
+        <p className="text-gray-600 text-lg max-w-2xl mx-auto mb-10">
+          A modern UI built with clean components and perfect alignment.  
+          Designed in a minimal, Apple-inspired style.
         </p>
 
-        <button className="px-8 py-3 bg-black text-white rounded-md hover:opacity-80 transition">
+        <button className="px-10 py-4 bg-black text-white rounded-xl text-lg hover:opacity-80 transition">
           Get Started
         </button>
+
       </div>
     </section>
   );

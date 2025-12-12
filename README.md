@@ -42,12 +42,11 @@ Component-based Architecture
 
 ## 🛠️ Getting Started (Local Development)
 
-Install dependencies:
+**Install dependencies:**
 
 npm install
 
-
-Run development server:
+**Run development server:**
 
 npm run dev
 

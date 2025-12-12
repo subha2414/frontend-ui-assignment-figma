@@ -15,6 +15,7 @@ Tailwind CSS
 Vercel Deployment
 
 ## 📁 Project Structure
+```
 src/
  ├─ app/
  │   ├─ page.tsx
@@ -22,11 +23,12 @@ src/
  │   └─ globals.css
  ├─ components/
  │   ├─ Header.tsx
- │   ├─ FeatureCard.tsx
+ │   └─ FeatureCard.tsx
  └─ sections/
      ├─ Hero.tsx
-     ├─ Features.tsx
+     └─ Features.tsx
 public/
+```
 
 ## 🖼️ Features Implemented
 

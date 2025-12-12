@@ -1,8 +1,8 @@
-📌 Frontend UI Assignment – Figma to Next.js
+# 📌 Frontend UI Assignment – Figma to Next.js
 
 This repository contains my submission for the Frontend Intern Assignment, where I implemented a pixel-perfect UI from the provided Figma design using Next.js, React, and Tailwind CSS.
 
-🚀 Tech Stack
+## 🚀 Tech Stack
 
 Next.js 14
 
@@ -14,7 +14,7 @@ Tailwind CSS
 
 Vercel Deployment
 
-📁 Project Structure
+## 📁 Project Structure
 src/
  ├─ app/
  │   ├─ page.tsx
@@ -28,7 +28,7 @@ src/
      ├─ Features.tsx
 public/
 
-🖼️ Features Implemented
+## 🖼️ Features Implemented
 
 Responsive Header
 
@@ -40,7 +40,7 @@ Clean Folder Structure
 
 Component-based Architecture
 
-🛠️ Getting Started (Local Development)
+## 🛠️ Getting Started (Local Development)
 
 Install dependencies:
 
@@ -55,12 +55,12 @@ npm run dev
 Open http://localhost:3000
  in your browser.
 
-🌐 Deployment
+## 🌐 Deployment
 
 This project is deployed on Vercel.
 
 (Add your deployment link after deploying)
 
-🙌 Thank You
+## 🙌 Thank You
 
 Thank you for reviewing my work!
